@@ -1,0 +1,20 @@
+/* Write your code here. */
+.emojiCard {
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  padding: 20px;
+}
+.button {
+  all: unset;
+  display: inline;
+}
+.button:focus {
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .emojiCard {
+    padding: 10px;
+    margin: 10px;
+  }
+}

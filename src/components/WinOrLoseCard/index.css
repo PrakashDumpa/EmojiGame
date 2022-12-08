@@ -1,0 +1,28 @@
+/* Write your code here. */
+.win_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  /* margin: 25px; */
+}
+.play_again-button {
+  border-radius: 10px;
+}
+@media (max-width: 767px) {
+  .win_container {
+    width: 80%;
+    flex-direction: column;
+    margin: 0px;
+  }
+  .image {
+    order: 1;
+  }
+  .text_container {
+    order: 2;
+  }
+}
